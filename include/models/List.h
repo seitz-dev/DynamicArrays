@@ -129,6 +129,12 @@ public:
      */
     void deleteAt(int);
 
+    void swap(int firstIndex, int secondIndex) {
+        const auto temp = arr[firstIndex];
+        arr[firstIndex] = arr[secondIndex];
+        arr[secondIndex] = temp;
+    }
+
     T *toArray();
 
     List<T> reverse();

@@ -12,9 +12,7 @@ List<int> SelectionSortAlgorithm::sort(List<int> &list) const {
             }
         }
 
-        const auto temp = list[swapIndex];
-        list[swapIndex] = list[highestNumberIndex];
-        list[highestNumberIndex] = temp;
+        list.swap(highestNumberIndex, swapIndex);
         swapIndex--;
         highestNumberIndex = 0;
     }

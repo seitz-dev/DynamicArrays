@@ -7,5 +7,6 @@
 #include "models/List.h"
 
 List<int> InsertionSortAlgorithm::sort(List<int> &list) const {
-
+    // TODO: Implement insertion sort algorithm
+    return list;
 }
