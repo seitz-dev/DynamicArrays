@@ -1,0 +1,13 @@
+﻿//
+// Created by julia on 11/9/2025.
+//
+
+#ifndef DYNAMICARRAYS_INSERTIONSORTALGORITHM_H
+#define DYNAMICARRAYS_INSERTIONSORTALGORITHM_H
+
+
+class InsertionSortAlgorithm {
+};
+
+
+#endif //DYNAMICARRAYS_INSERTIONSORTALGORITHM_H
