@@ -12,6 +12,8 @@ add_library(DynamicArraysLib
         src/models/sorting/BubbleSortAlgorithm.cpp
         src/models/sorting/SelectionSortAlgorithm.cpp
         include/models/sorting/SelectionSortAlgorithm.h
+        src/models/sorting/InsertionSortAlgorithm.cpp
+        include/models/sorting/InsertionSortAlgorithm.h
 )
 
 target_include_directories(DynamicArraysLib PUBLIC include)

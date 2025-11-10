@@ -10,7 +10,6 @@ if(Catch2_FOUND)
             list/list_insertion_tests.cpp
             list/list_init_lookup_tests.cpp
             sorting/sorting_algorithm_tests.cpp
-            ../src/models/sorting/parser/ValueSortParser.cpp
     )
 
     # Create the test executable BEFORE linking or including directories
